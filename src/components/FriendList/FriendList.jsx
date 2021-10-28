@@ -11,11 +11,7 @@ const FriendList = ({ friends }) => {
       />
     );
   });
-  return (
-    <ul className="friend-list" key="1">
-      {allfriends}
-    </ul>
-  );
+  return <ul className="friend-list">{allfriends}</ul>;
 };
 
 export default FriendList;
